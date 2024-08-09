@@ -1,0 +1,17 @@
+
+import java.util.*;
+import java.util.Scanner;
+class Main {
+
+    public static void main(String[] args) {
+        //Scanner sc=new Scanner(System.in);
+        LinkedHashSet<Integer> l1 = new LinkedHashSet<Integer>();
+        l1.add(3);
+        l1.add(3);
+        l1.add(7);
+        System.out.println(l1);
+        HashSet<Integer> hs = new HashSet<Integer>(l1);
+        System.out.println("After removing duplicate elements: "+hs);
+    }
+
+}
